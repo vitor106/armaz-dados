@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preencha seus dados</title>
+    <div id="res">
+        <link rel="stylesheet" href="estilo.css">
+    </div>
+</head>
+<body background="newh-logo.img.jpg">
+    <header>
+        <p> Nome completo </p>
+        <form action="">
+        <input type="text" name="name" id="name">
+        <input type="submit" value="Enviar" >
+           <P> Idade </P>
+            <input type="text" name="idade" id="idade" min="0">
+            <input type="submit" value="Enviar">
+            <p> Instagram </p>
+            <input type="text" name="insta" id="insta">
+            <input type="submit" value="Enviar">
+            <p> Número (DD) </p>
+            <input type="text" name="num" id="num"> 
+            <input type="submit" value="Enviar">
+            <p> Principal email</p>
+            <input type="text" name="email" id="email">
+            <input type="submit" value="Enviar">
+            <p> sexo</p>
+            <input type="radio" name="radsex" id="radsex" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radsex" id="radsex">
+            <label for="fem"> Feminino</label>
+
+        </form>
+
+            
+   
+    </header>
+        <script>
+            var input = document.querySelector ("#name");
+            var input = document.querySelector ('#idade');
+            var input = document.querySelector ('#insta');
+            var input = document.querySelector ('#num');
+            var input = document.querySelector ('#email');
+            var input = document.querySelector ('#radsex');
+            var texto = input.value;
+            console.log(texto);
+        </script>
+        <footer>
+            @newhdigital
+            
+        </footer>
+</body>
+</html>

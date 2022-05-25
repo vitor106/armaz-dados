@@ -1,0 +1,21 @@
+body {
+    background-repeat: no-repeat;
+    background-position: under;
+    background-color: #6DFB46;
+    font: normal 12pt arial;
+   margin-bottom: 10px;
+
+}
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+section {
+
+}
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
